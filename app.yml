@@ -4,6 +4,6 @@ config:
   #cloud-config
   packages:
     - git
-    - docker
+    - docker.io
   runcmd:
     - docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads jpillora/cloud-torrent
